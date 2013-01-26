@@ -1,0 +1,19 @@
+{
+  "author": "Tauno Hogue <tauno@brainprod.com>",
+  "name": "nwws",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/tauno/nwws"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "nconf": "0.5.x",
+    "logme": "0.3.x",
+    "node-hid": "0.1.1"
+  },
+  "devDependencies": {}
+}
