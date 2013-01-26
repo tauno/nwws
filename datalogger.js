@@ -62,7 +62,7 @@ function datalogger() {
 }
 
 // Set up inheritance from EventEmitter
-util.inherits(OS_WStation, events.EventEmitter);
+//util.inherits(OS_WStation, events.EventEmitter);
 
 OS_WStation.prototype.logMinuteReport = function (values, callback) {
     if (this.dataLogger)
